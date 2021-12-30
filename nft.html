@@ -10,8 +10,17 @@
     <link rel="stylesheet" href="css/computer.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" media="screen and (max-width: 480px) and (orientation:portrait)" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Share+Tech&display=swap" rel="stylesheet">
     <title>NFTs | METAVEGAX</title>
+    <style>
 
+        .w3-third {
+          
+          position: relative;
+          display: inline-block;
+          height: 100%;              
+        }
+    </style>
   <style>
   * {
 	 margin: 0;
@@ -38,20 +47,40 @@
   </style>  
   <style>
         body , h2 {
-          font-family: 'Montserrat', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 100;
         }
     </style>
     <style>
         p {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 400;
         }
     
     </style>
     
-    <style>
+         <style>
+                  .up-to-the-top {
+                display: inline-block;
+                background-color: #230000;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                border-radius: 4px;
+                position: fixed;
+                bottom: 30px;
+                left: 30px;
+                transition: background-color .3s, 
+                  opacity .5s, visibility .5s;
+                z-index: 1000;
+              }
+              .up-to-the-top:hover {
+                cursor: pointer;
+                background-color: rgb(255, 0, 0);
+              }
 
 
-    </style>
+         </style>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
 
@@ -114,37 +143,67 @@
                 <h2>
                     <b>Welcome,</b>  
                  </h2>
-                 <h2>
-                   <b class="w3-jumbo">  Welcome,  </b> 
-                 </h2>
+               
                  <h2>
                     <b  class="w3-jumbo"> POP BALLERS! </b> 
                   </h2> <br><br>
-                  <h2 class="w3-xlarge">INITIAL NFT OFFERING - PRESALE</h2> <br><br> <br><br> <br><br>
-
-                  <a href="#home" class="w3-bar-item w3-center w3-white w3-text-black w3-xxlarge w3-button"><b>MINT NFT</b> </a><br><br><br><br><br><br> <br><br>
+                  <h2 class="w3-xlarge">INITIAL NFT OFFERING - PRESALE</h2> <br><br><br><br>
+                  <h2 class="w3-center">
+                      <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white w3-text-black w3-xlarge w3-center"> <strong> MINT </strong></button>
+                   </h2>     
+                   <div id="id01" class="w3-modal w3-round-xlarge w3-center" >
+                        <div class="w3-modal-content w3-card-4  w3-animate-top ">
+                            <header class="w3-container w3-white"> 
+                                <span onclick="document.getElementById('id01').style.display='none'" 
+                                class="w3-button w3-display-topright ">&times;</span>
+                                <h2 class="w3-text-black" > <strong> NOTICE </strong> </h2>
+                            </header>
+                            <div class="w3-container w3-text-black w3-white">
+                                <p class="w3-xlarge" >Stay tuned, whitelist mint day is on 6th January 4 PM UTC</p>
+                                
+                            </div>
+                            <footer>
+                                <p>
+                                    <br>
+                                </p>
+                            </footer>
+                        
+                        </div>
+                   </div>
+                </div>
+                
+                <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+                
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                  if (event.target == modal) {
+                    modal.style.display = "none";
+                  }
+                }
+                </script>
              </div>  
-             <div class="w3-half">
-                <img src="images/vegax.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
-                data-aos-anchor-placement="top-bottom">
+             <div class="w3-half w3-center">
+                <img src="images/xxvxx.png"  class="w3-image" style="max-width: 50%;">
 
-             </div>        
+             </div> <br><br><br><br>       
          </div> 
       </div>
     </div>
     <div class="section" data-bg="brown">
         <div class="w3-container">
             <div class="w3-content">
-                <h2>
+                <h2><br><br><br><br><br>
                     <b  class="w3-xxxlarge w3-center">IT PAYS TO HAVE A SEAT AT THIS TABLE ! </b> 
-                  </h2><br> <br>
+                </h2><br> <br>
                   <p class="w3-xlarge w3-center" >
-                    An exlusive, unrivalled collection of 111 handcrafted NFT playing cards, Ultra Rare Edition, inspired by Pop and Rock LA celebrities. Kings, Queens and Jacks in the deck are some of the most important music icons from rock, soul, reggae and also first punk.  Receive a bag of $MEVAX tokens when you mint a Pop Baller at presale, and earn casino profits royalties for holding this NFT. Each Vegas Pop Star card NFT will also be used in our Poker game launch in 2022. Do you have what it takes to become a popular Baller and sit at this table?
+                    An exclusive, unrivalled collection of 111 handcrafted NFT playing cards, Ultra Rare Edition, inspired by Pop and Rock LA celebrities. Kings, Queens and Jacks in the deck are some of the most important music icons from rock, soul, reggae and also first punk.  Receive a bag of $MEVAX tokens when you mint a Pop Baller at presale, and earn casino profits royalties for holding this NFT. Each VegaxCard NFT will also be used in our Poker game launch in 2022. Do you have what it takes to become a popular Baller and sit at this table?
                   </p> <br><br><br>
-                    <p class="w3-xxlarge"><b>Stay tuned – Whitelist mint day is on 5 January 4 PM UTC !</b> </p>
+                    <p class="w3-xxlarge"> </p>
                     <br><br><br><br><br>
                     <h2 class="w3-center">
-                        <b  class="w3-xxlarge w3-center">Join the Club and Secure a Life-time share of our Casino. Be The House ! </b> <br><br><br><br>
+                        <br><br><br><br>
                       </h2>
                    
 
@@ -157,25 +216,30 @@
         <div class="w3-container">
             <div class="w3-content ">
                 <div class="">
-                    <div class="w3-twothird w3-text-black">
+                    <div class="w3-center w3-text-black">
                         <h2>
                             <b  class="w3-jumbo  w3-text-black">JOIN THE PRESALE ! </b> 
                         </h2><br><br><br><br>
-                        <h4 class="w3-xlarge">
-                            111 unique Genesis NFTs launching soon for Presale minting at 0.2 BNB each. When you mint a Pop Baller NFT, you will automatically receive equivalent BNB amount of $MEVAX Tokens and daily $MEVAX reflections for HODLing. Every single hand-drawn  PopBaller NFT has a 3D counterpart NFT to go with it to be airdropped in 2 weeks!
+                        <h4 class="w3-xlarge w3-center">
+                            111 unique Genesis NFTs launching soon for Presale minting at 0.3 BNB each. When you mint a VegaxClub NFT, you will automatically receive equivalent BNB amount of $MEVAX Tokens and daily $MEVAX reflections for HODLing. Every single hand-drawn  VegaxClub NFT has a 3D counterpart NFT to go with it to be airdropped in 2 weeks!
                         </h4><br>
-                        <h4 class="w3-xlarge">
+                        <h4 class="w3-xlarge w3-center">
                             
                             NFT Sale aimed towards liquidity of $MEVAX Token, launching at the beginning of January 2021. Token supply is 1,000,000,000,000 at a launch price of $0.0001 per token.
 
 
                         </h4>
-                    </div>
-                        <div class="w3-third">
-                            <img src="images/gaga.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
-                            data-aos-anchor-placement="top-bottom">
+                    </div><br><br>
+                      
+                </div>
 
-                        </div>
+                <div class="w3-container w3-content w3-center" >
+                    <div >
+                        <img src="images/xxvx.jpg"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+                        data-aos-anchor-placement="top-bottom" style="max-width: 70%;">
+
+                    </div>
+
                 </div>
                
 
@@ -200,38 +264,38 @@
 
        
     </div>
-    <div class="section" data-bg="turquoise">
+    <div class="section" data-bg="aqua">
         <div class="w3-container w3-content w3-center" >
             <h2> <br><br><br>
                 <b  class="w3-jumbo  w3-center w3-text-black">FEATURES </b> 
             </h2>
-        </div>
+        </div><br><br><br>
         <div class="w3-container w3-content">
             <div class="w3-twothird">
                 <h2> 
                     <b  class="w3-xxlarge  w3-center w3-text-black">PASSIVE INCOME BY BECOMING A CASINO OWNER</b> 
-                </h2>
+                </h2><br><br>
                 <h4 class="w3-xlarge w3-text-black">
                     50% of the generated profits in the MetaVegas Casino will be distributed to the PopBaller NFT holders. There will be different levels of profit-share, depending on which NFT you own.
                     Holding your NFT will generate passive income, which can be used in the online casino (with rakeback benefits) or paid out to your wallet
                 </h4>
             </div>
-            <div class="w3-third w3-center" >
-                <img src="images/coolz.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+            <div class="w3-third  w3-hide-small w3-center" ><br><br><br>
+                <img src="images/nft1.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
                 data-aos-anchor-placement="top-bottom">
             </div>
         </div>
-    </div>
-    <div class="section" data-bg="white">
+    
+    
         <div class="w3-container w3-content">
-            <div class="w3-third w3-center" >
-                <img src="images/gaga.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+            <div class="w3-third  w3-hide-small w3-center" ><br><br><br><br><br><br><br><br>
+                <img src="images/nft2.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
                 data-aos-anchor-placement="top-bottom">
-            </div>
+            </div><br><br><br>
             <div class="w3-twothird">
                 <h2> 
                     <b  class="w3-xxlarge  w3-center w3-text-black">PATNERSHIPS WITH STREAMERS /ONLINE MARKETERS</b> 
-                </h2>
+                </h2><br><br><br>
                 <h4 class="w3-xlarge w3-text-black">
                     We are already in contact with casino streamers to discuss the first partnerships. Casino Streamers working with us will exclusively play and stream in our MetaVegax Casino. Depending on the Programming Work that is needed and the regulations/logics inside the Metaverse, there will also be a referral program, which makes our Casino even more attractive to Casino Streamers and Affiliate Marketers all over the world.
                 </h4>
@@ -242,61 +306,133 @@
    
     
         <div class="w3-container w3-content">
-           
+            <br><br><br><br> 
             <div class="w3-twothird">
                 <h2> 
                     <b  class="w3-xxlarge  w3-center w3-text-black">LOTTERY</b> 
-                </h2>
+                </h2><br><br>
                 <h4 class="w3-xlarge w3-text-black">
                     Every NFT holder will be eligible to take part in a monthly lottery with prizes up to $20,000. Each NFT held will give you an entry into the lottery and grant you free spins on our MetaVegax Spin Wheel.
                 </h4>
-            </div>
-            <div class="w3-third w3-center" >
-                <img src="images/vegax.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+            </div><br><br>
+            <div class="w3-third  w3-hide-small w3-center" >
+                <img src="images/nft3.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
                 data-aos-anchor-placement="top-bottom">
+                
             </div>
            
         </div>
         
-           
-        
+    </div>      
+    <div class="section" data-bg="lime">
     
     
-        <div class="w3-container w3-content w3-center" >
-            <h2> 
-                <b  class="w3-xxlarge  w3-center w3-text-black">TAXES & ALLOCATION</b> <br>
-            </h2>
-        </div>
-       
-            <div class="w3-container ">
-                <!--Div that will hold the pie chart-->
-                <div style="height: 40rem; width: auto; min-width: 450px; justify-content: start;"  id="chart_div"  ></div>
-            </div>
-      
+                    <div  data-aos="fade-down" 
+                      data-aos-easing="linear"
+                       data-aos-duration="1000" class="w3-row-padding"><br><br><br><br>
+                       <h2 class="w3-container  w3-xxxlarge w3-text-black w3-content w3-center">
+                           . . .  MORE FEATURES
+                       </h2> <br><br><br>
+                        <div class="w3-third w3-container w3-center  w3-margin-bottom">
+                            
+                            <div class="w3-container  w3-round-xlarge w3-dark-grey">
+                            <h2 class="w3-large w3-black w3-text-white w3-round-large">CONTRIBUTED RAKEBACK </h2>
+                            <h4 class="w3-medium">Everyone playing in the MetaVegax holding a VegaxClub NFT will be eligible for contributed Rakebacks based on the percentage of money you contribute to the pot. <br> </h4><br> 
+                            </div>
+                        </div>
+                        <div class="w3-third w3-container w3-margin-bottom">
+                        
+                            <div class="w3-container  w3-center w3-round-xlarge  w3-dark-grey w3-text-white">
+                            <h2 class="w3-large w3-black w3-text-white w3-round-large">WEEKLY TOURNAMENTS</h2>
+                            <h4  class="w3-medium">Metavegax CasinoClub NFT Holders will be able to participate in our weekly tournaments for free. There will be blackjack, poker, baccarat & even horse racing tournaments taking place in our Casino & Lounges.</h4>
+                            </div>
+                        </div>
+                        <div class="w3-third w3-center  w3-round-xlarge  w3-container">
+                            
+                            <div class="w3-container  w3-round-xlarge w3-dark-grey">
+                            <h2 class="w3-large w3-black w3-text-white w3-round-large">VIP AREAS & ACCESS</h2> 
+                            <h4  class="w3-medium">Dedicated VIP Lounge areas will be only accessible with a special VegaxClub NFT. In the VIP Areas you cannot only enjoy virtual drinks and have a smoke but also dance to music from different DJs or have a chat with like-minded Gamblers.</h4>
+                            </div>
+                        </div>
+                   </div><br>
+
+                   <div  data-aos="fade-down" 
+                   data-aos-easing="linear"
+                    data-aos-duration="1000" class="w3-row-padding">
+                     <div class="w3-third w3-container w3-center  w3-margin-bottom">
+                         
+                         <div class="w3-container  w3-round-xlarge w3-dark-grey">
+                         <h2 class="w3-large w3-black w3-text-white w3-round-large " >VOXELS </h2>
+                         <h4 class="w3-medium w3-text-white "  >Owners of the NFTs will have the possibility to carry our merchandise in the Metaverse and even get rewarded.</h4><br><br>
+                         </div>
+                     </div>
+                     <div class="w3-third w3-container w3-margin-bottom">
+                     
+                         <div class="w3-container w3-center w3-round-xlarge w3-dark-grey w3-text-white">
+                         <h2 class="w3-large  w3-black w3-text-white w3-round-large">CHARITY DONATION</h2>
+                         <h4  class="w3-medium">We will make a monthly charity donation of 1 % of the Casinos Profits. Owners of our NFT will be able to vote which charity / organization will receive the monthly donation.</h4>
+                         </div>
+                     </div>
+                     <div class="w3-third w3-center  w3-round-xlarge  w3-container">
+                         
+                         <div class="w3-container  w3-round-xlarge w3-dark-grey">
+                         <h2 class="w3-large  w3-black w3-text-white w3-round-large">
+                            OWNERSHIP
+                            </h2> 
+                         <h4  class="w3-medium">Our holders will receive premium rates for advertising or putting portals to our Casino on their lands.</h4><br><br>
+                         </div>
+                     </div>
+                </div><br><br><br>
+                <div class="w3-container w3-content" >
+                    <img src="images/pat1.png"  class="w3-image" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+                    data-aos-anchor-placement="top-bottom">
+                    <div class="w3-right">
+                         <img src="images/pazaza.png"  class="w3-image w3-center" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+                        data-aos-anchor-placement="top-bottom">
+                    </div>
+
+                    <br><br><br>
+
+                </div>
+                
 
 
 
     </div>
+    <div class="up-to-the-top">
+        <a href="#">
+          <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"  style="width: 32px;padding-top: 12px;" viewBox="0 0 2160 1280.02">
+            <defs>
+              <style>.cls-1{fill:white;}</style>
+            </defs>
+            <polygon class="cls-1" points="200 1280.02 1079.99 400 1960.01 1279.99 2160 1079.98 1079.98 0 0 1080.02 200 1280.02">
+            </polygon>
+          </svg>
+        </a>
+      </div>
+    <script>
+        AOS.init();
+    </script> 
 <script>
     window.sections = [...document.querySelectorAll('.section')];
-window.lastScrollTop = window.pageYOffset;
+    window.lastScrollTop = window.pageYOffset;
 
-document.body.style.background = window.sections[0].getAttribute('data-bg');
+    document.body.style.background = window.sections[0].getAttribute('data-bg');
 
-window.addEventListener('scroll', onScroll);
+    window.addEventListener('scroll', onScroll);
 
-function onScroll() {
-  const scrollTop = window.pageYOffset;
-  
-  const section = window.sections
-    .map(section => {
-      const el = section;
-      const rect = el.getBoundingClientRect();
-      return {el, rect};
-    })
-    .find(section => section.rect.bottom >= (window.innerHeight * 0.5));
-  document.body.style.background = section.el.getAttribute('data-bg');
-}
+    function onScroll() {
+    const scrollTop = window.pageYOffset;
+    
+    const section = window.sections
+        .map(section => {
+        const el = section;
+        const rect = el.getBoundingClientRect();
+        return {el, rect};
+        })
+        .find(section => section.rect.bottom >= (window.innerHeight * 0.5));
+    document.body.style.background = section.el.getAttribute('data-bg');
+    }
 
 
 </script> 
@@ -306,8 +442,6 @@ function onScroll() {
 <script src="js/app.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script>
-    AOS.init();
-</script> 
+
 </body>
 </html>
